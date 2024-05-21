@@ -1,0 +1,9 @@
+device,tokenizer_type,learning_rate,batch_dimentions_Train,batch_dimentions_Val_Test,N_epochs,clip,out_dropout,emb_dropout,hidden_size,embde_size,n_layers,Bi_directional,patience,optimizer_name,momentum,weight_decay,trigger_threshold,Best_train_ppl,Perplexity Test
+cuda,bert-base-uncased,5.0,64,32,3,5,0.1,0.1,750,750,1,False,10,NTAvSGD,0.4,0.0001,5,248.0148475319348,239.90792878314355
+cuda,bert-base-uncased,5.0,64,32,10,5,0.1,0.1,750,750,1,False,10,NTAvSGD,0.4,0.0001,5,153.6998084341104,150.95720673736477
+cuda,bert-base-uncased,5.0,64,32,10,5,0.1,0.1,750,750,1,False,10,NTAvSGD,0.4,0.0001,5,149.27946387243585,146.24497272867623
+cuda,bert-base-uncased,5.0,64,32,10,5,0.1,0.1,750,750,1,False,10,NTAvSGD,0.4,0.0001,5,154.07385445875752,153.15895135197434
+cuda,bert-base-uncased,5.0,64,32,10,5,0.1,0.1,750,750,1,False,10,NTAvSGD,0.4,0.0001,5,149.66134340736028,147.157387593466
+cuda,bert-base-uncased,5.0,64,32,10,5,0.1,0.1,750,750,1,False,10,NTAvSGD,0.4,0.0001,5,162.87970242876136,158.93574898007125
+cuda,bert-base-uncased,5.0,64,32,100,5,0.1,0.1,750,750,1,False,10,NTAvSGD,0.4,0.0001,5,126.3028857698669,125.93081133765396 , (training_metrics_1.png)
+cuda,bert-base-uncased,5.0,64,32,100,5,0.1,0.1,556,556,1,False,10,NTAvSGD,0.4,0.0001,5,125.77750360682752,123.21177973370837
